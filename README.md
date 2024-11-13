@@ -33,7 +33,7 @@ Memoizare și tabulare.
  - Problema N-reginelor.
  - Permutări și combinații.
  - Problema labirintului.
- - 
+   
 8. Algoritmi de divizare și cucerire
  - Probleme precum sortarea prin divizare (Merge Sort), căutarea de elemente în matrice, etc.
    
