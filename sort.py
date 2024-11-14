@@ -27,3 +27,17 @@ def bsy(array, n):
     return -1
 
 bsy(array, x)
+
+def insert_sort(array):
+     for i in range(1, len(array)):
+         left_val = i -1
+         right_val = array[i]
+
+         while left_val >= 0 and array[left_val] > right_val:
+             array[left_val + 1] = array[left_val]
+             left_val -= 1
+     array[left_val + 1] = right_val
+
+ print(array)
+ insert_sort(array);
+ print(array)
