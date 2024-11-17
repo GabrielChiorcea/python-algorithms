@@ -56,6 +56,13 @@ def insert_sort(array):
  print(array)
 
 
+
+#Merge sort este un algoritm de sortare eficient care folosește principiul „divide et impera”. Funcționează prin împărțirea recursivă a 
+#listei în subliste mai mici până când fiecare sublistă conține un singur element sau este goală (fiind astfel sortată). Apoi, sublistele 
+#sunt combinate printr-un proces de interclasare, în care elementele sunt comparate și adăugate într-o ordine sortată pentru a forma subliste 
+#din ce în ce mai mari până când întreaga listă este reconstruită și sortată. Merge sort are o complexitate de timp de 
+#O(n log n) în toate cazurile, ceea ce îl face mult mai eficient decât sortările simple precum insert sort, mai ales pentru liste mari.
+
 def mergeSort(arr):
     if len(arr) <= 1:
         return arr
