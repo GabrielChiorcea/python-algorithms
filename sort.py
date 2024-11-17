@@ -1,6 +1,12 @@
 array = [1, 3, 7, 9, 15, 18, 21, 25]
 x = 15
 
+#Binary sort, cunoscut și sub numele de sortare binară prin inserție, este o variație a algoritmului de insert sort care utilizează 
+#căutarea binară pentru a găsi poziția corectă de inserare a fiecărui element. În loc să parcurgă secțiunea sortată element cu element,
+#binary sort folosește căutarea binară pentru a localiza rapid poziția potrivită, reducând astfel numărul de comparații necesare. După ce
+#poziția corectă este determinată, elementul este inserat și restul listei este mutat pentru a face loc. Deși încă are o complexitate de timp de 
+#O(n2) în cel mai rău caz, căutarea binară optimizează numărul de comparații, făcând algoritmul mai eficient decât insert sort pentru liste mari.
+
 def bsy(array, n):
     start_index = 0
     midel_index = 0
