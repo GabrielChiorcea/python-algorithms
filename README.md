@@ -13,7 +13,6 @@
  - Quick Sort
  - Insertion Sort
  - Heap Sort
- - Este util să înțelegi complexitatea lor (timp și spațiu) și când să le folosești.
 
 3. Algoritmi de căutare
  - Căutare liniară
